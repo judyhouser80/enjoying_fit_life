@@ -1,0 +1,26 @@
+{
+  "name": "enjoying_fit_life",
+  "version": "1.0.0",
+  "description": "Joy's website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/judyhouser80/enjoying_fit_life.git"
+  },
+  "keywords": [
+    "fitness"
+  ],
+  "author": "Judy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/judyhouser80/enjoying_fit_life/issues"
+  },
+  "homepage": "https://github.com/judyhouser80/enjoying_fit_life#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
