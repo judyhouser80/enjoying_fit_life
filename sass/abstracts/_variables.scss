@@ -1,22 +1,21 @@
 // Colors
-$color-primary: #2836b4;
-$color-primary-light: #6fb0d5;
-$color-primary-dark: #4850cc;
+$color-primary: rgb(37, 3, 102);
+$color-primary-light: #3806c0;
 
+$color-primary-dark: #4850cc;
 $color-green-light: rgb(3, 204, 3);
 $color-green-dark: rgb(5, 148, 5);
-
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eee;
 $color-grey-light: #d3d3d3;
 $color-grey-dark: #777;
-
+$color-grey-dark-3: #333;
 $color-purple-light: rgb(247, 232, 247);
 $color-purple-medium: rgb(248, 100, 248);
 $color-purple-dark: rgb(247, 9, 247);
-
 $color-yellow-light: #ffb900;
 $color-yellow-dark: #ff7730;
+
 
 $color-snow: #fffafa;
 $color-white: #fff;
@@ -28,4 +27,5 @@ $default-font-size: 1.6rem;
 //Grid
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
 $gutter-horizontal: 6rem;
