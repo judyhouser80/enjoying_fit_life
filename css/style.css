@@ -319,22 +319,22 @@ body {
 
 .footer {
   padding: 5rem 0;
-  background-color: #4850cc;
+  background-color: #000;
   font-size: 1.4rem; }
   @media (max-width: 56.25em) {
     .footer {
       padding: 3rem 0; } }
   .footer_logo-box {
     text-align: center;
-    margin-bottom: 8rem; }
+    margin-bottom: 4rem; }
     @media (max-width: 56.25em) {
       .footer_logo-box {
-        margin-bottom: 4rem; } }
+        margin-bottom: 2rem; } }
   .footer_logo {
-    width: 15rem;
+    width: 10rem;
     height: auto; }
   .footer_navigation {
-    padding-left: 15rem;
+    padding-left: 5rem;
     display: inline-block; }
     @media (max-width: 56.25em) {
       .footer_navigation {
@@ -346,17 +346,17 @@ body {
   .footer_item {
     display: inline-block; }
     .footer_item:not(:last-child) {
-      margin-right: 1.5rem; }
+      margin-right: 2rem; }
   .footer_link:link, .footer_link:visited {
-    color: #f7f7f7;
-    background-color: #4850cc;
+    color: #fffafa;
+    background-color: #000;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
     transition: all .2s; }
   .footer_link:hover, .footer_link:active {
-    color: #250366;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    color: #fffafa;
+    box-shadow: 0 1rem 2rem rgba(105, 4, 4, 0.8);
     transform: rotate(5deg) scale(1.3); }
   .footer_copyright {
     color: #f7f7f7;
@@ -411,7 +411,7 @@ body {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(56, 6, 192, 0.8)), url(../img/workout.mp4);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(37, 3, 102, 0.6)), url(../img/workout.mp4);
   background-size: cover;
   background-position: bottom;
   position: relative; }
@@ -430,14 +430,14 @@ body {
 
 .section-inspire {
   background-color: #690404;
-  padding: 5rem 0;
+  padding: 2rem 0;
   font-size: 3.5rem;
   text-transform: capitalize;
   font-weight: 300;
   text-align: center; }
   @media (max-width: 56.25em) {
     .section-inspire {
-      padding: 2rem 0; } }
+      padding: 1rem 0; } }
 
 .section-about {
   background-color: #000;
@@ -460,6 +460,43 @@ body {
   @media (max-width: 56.25em) {
     .section-pricing {
       padding: 2rem 0; } }
+  .section-pricing__list {
+    list-style: none; }
+
+.section-cert {
+  background-color: #250366;
+  padding: 2rem 0;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  font-weight: 300;
+  text-align: center; }
+  @media (max-width: 56.25em) {
+    .section-cert {
+      padding: 1rem 0; } }
+  .section-cert_img {
+    font-size: 3.5rem;
+    text-align: center; }
+  .section-cert_photo {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: 2rem; }
+    @media (max-width: 56.25em) {
+      .section-cert_photo {
+        float: left;
+        position: relative;
+        width: 33.33333%;
+        box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); } }
+    .section-cert_photo--p1 {
+      left: 0;
+      top: -2rem; }
+      @media (max-width: 56.25em) {
+        .section-cert_photo--p1 {
+          top: 0;
+          transform: scale(1.2); } }
 
 .section-events {
   position: relative;

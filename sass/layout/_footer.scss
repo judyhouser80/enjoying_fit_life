@@ -1,6 +1,6 @@
 .footer {
     padding: 5rem 0;
-    background-color: $color-primary-dark;
+    background-color: $color-black;
     font-size: 1.4rem;
 
     @include respond(tab-port) {
@@ -9,22 +9,22 @@
 
     &_logo-box {
         text-align: center;
-        margin-bottom: 8rem;
+        margin-bottom: 4rem;
 
         @include respond(tab-port) {
-            margin-bottom: 4rem;
+            margin-bottom: 2rem;
         }
     }
 
     &_logo {
-        width: 15rem;
+        width: 10rem;
         height: auto;
     }
 
     &_navigation {
         // border-top: 1px solid $color-grey-light-1;
         // padding-top: 2rem;
-        padding-left: 15rem;
+        padding-left: 5rem;
         display: inline-block;
 
         @include respond(tab-port) {
@@ -42,7 +42,7 @@
         display: inline-block;
 
         &:not(:last-child) {
-            margin-right: 1.5rem;
+            margin-right: 2rem;
         }
     }
 
@@ -50,8 +50,8 @@
 
         &:link,
         &:visited {
-            color: $color-grey-light-1;
-            background-color: $color-primary-dark;
+            color: $color-snow;
+            background-color: $color-black;
             text-decoration: none;
             text-transform: uppercase;
             display: inline-block;
@@ -60,8 +60,8 @@
 
         &:hover,
         &:active {
-            color: $color-primary;
-            box-shadow: 0 1rem 2rem rgba($color-black, .4);
+            color: $color-snow;
+            box-shadow: 0 1rem 2rem rgba($color-red, .8);
             transform: rotate(5deg) scale(1.3);
         }
     }
