@@ -69,10 +69,10 @@ body {
 
 body {
   font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   /* font-size: 16px; */
   line-height: 1.7;
-  color: #777; }
+  color: #d3d3d3; }
 
 .heading-primary {
   color: #fffafa;
@@ -108,7 +108,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, #3806c0, #4850cc);
+  background-image: linear-gradient(to right, #777, #333);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px;
@@ -440,7 +440,7 @@ body {
       padding: 1rem 0; } }
 
 .section-about {
-  background-color: #000;
+  background-color: #250366;
   padding: 5rem 0;
   font-size: 3.5rem;
   text-transform: capitalize;
