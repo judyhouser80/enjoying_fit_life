@@ -473,9 +473,6 @@ body {
   @media (max-width: 56.25em) {
     .section-cert {
       padding: 1rem 0; } }
-  .section-cert_img {
-    font-size: 3.5rem;
-    text-align: center; }
   .section-cert_photo {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
@@ -497,10 +494,14 @@ body {
         .section-cert_photo--p1 {
           top: 0;
           transform: scale(1.2); } }
-
-.section-events {
-  position: relative;
-  padding: 7rem 0; }
-  @media (max-width: 56.25em) {
-    .section-events {
-      padding: 5rem 0; } }
+    .section-cert_photo:hover {
+      outline: 1.5rem solid #250366;
+      transform: scale(1.05) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+      z-index: 20; }
+  .section-cert .section-events {
+    position: relative;
+    padding: 7rem 0; }
+    @media (max-width: 56.25em) {
+      .section-cert .section-events {
+        padding: 5rem 0; } }
