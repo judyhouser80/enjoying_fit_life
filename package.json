@@ -19,7 +19,9 @@
     "url": "https://github.com/judyhouser80/enjoying_fit_life/issues"
   },
   "homepage": "https://github.com/judyhouser80/enjoying_fit_life#readme",
-  "dependencies": {},
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
   "devDependencies": {
     "node-sass": "^4.13.1"
   }
