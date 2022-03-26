@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/judyhouser80/enjoying_fit_life#readme",
   "dependencies": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   },
   "devDependencies": {
     "node-sass": "^4.13.1"
